@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Tajawal", sans-serif;
+}
+
+body {
+    background-color: bisque;
+    font-family: 'Tajawal', sans-serif;
+}
+
+a{
+    color: #ED8585;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 80px;
+}
+
+nav .left img {
+    width: 60px; 
+    height: auto; 
+}
+
+nav .right a{
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+nav .right a:last-child{
+    color:antiquewhite;
+    background-color:#ED8585 ;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+nav .right a span {
+    margin-left: 5px;
+}
+
+.about-section{
+    display: flex;
+    justify-content:space-between;
+    text-align: right;
+    align-items: center;
+    padding: 0 50px ;
+    margin: 50px 0;
+    margin-bottom: 100px;
+    gap: 40px;
+}
+.about-section .text {
+    flex: 5;
+}
+.about-section .text p{
+    font-size: medium;
+}
+.about-section .text .links {
+    margin-top: 25px;
+}
+.about-section .text .links a {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid #ED8585;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: .1s;
+}
+.about-section .text .links a:hover {
+    color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+}
+.about-section .imge {
+    flex: 2;
+    display: flex;
+    justify-content: left;
+}
+.about-section .imge img {
+    width: 200px;
+    border-radius: 50%;
+}
+  
+@media (max-width: 768px) {
+    nav {
+        padding: 0 20px;
+    }
+
+    nav .right a {
+        font-size: 18px;
+    }
+    
+    nav .right a span {
+        display: none;
+    }
+
+    nav .right a:last-child {
+        color: #ED8585;
+        background-color: transparent;
+        padding: 0;
+    }
+}
+
+/*section 4: cantact */
+.contact-section{
+    padding: 0 50px;
+    margin-bottom: 100px;
+
+}
+
+.contact-section h2 {
+    font-size: 35px;
+}
+
+.contact-section .group {
+    display: flex;
+    gap: 50px;
+}
+
+.contact-section .group .text{
+    
+}
