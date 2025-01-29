@@ -179,3 +179,59 @@ nav .right a span {
     text-align: right;
     margin-right: 15px;
 }
+
+/*section 3: cantact */
+.contact-section{
+    padding: 20px;
+    margin-bottom: 100px;
+
+
+}
+
+form {
+    text-align: right; 
+}
+.contact-section h2 {
+    font-size: 25px;
+    color: #c4adad;
+    text-align: right;
+}
+
+.contact-section .group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-section .group .text{
+    flex: 1;
+    text-align: right;
+}
+.contact-section .group form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.contact-section .group form input,
+.contact-section .group form textarea{
+    border: 2px solid #D2D2D2;
+    background-color: #F0F0F0;
+    
+    padding: 10px;
+    margin-bottom: 15px;
+    outline: none;
+    resize: none;
+}
+.contact-section .group form button{
+    font-size: 16px;
+    color: antiquewhite;
+    background-color: #ED8585;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    transform: .1s;
+
+}
+.contact-section .group form button:hover{
+    filter: brightness(.9);
+}
